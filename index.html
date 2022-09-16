@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>CALCULADORA JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/Calculadora.css" rel="stylesheet">
+    </head>
+    <body class="pagina">
+        
+        <!--
+          Quando o js estiver em uma página separada do html:
+          defer -> carrega e executa o js junto com a analise do html
+          Async -> carrega junto com a pagina, depois interrompe p/ execução do js, e depois retorna aanalise do html
+          Sem nenhum -> interrompe a análise do html p/ carregar e executar o js, e depois volta
+        -->
+        
+        <div class="titulo">
+            <h1>CALCULADORA</h1>
+        </div>
+        
+        <div class="alinha">
+        
+        <form class="caixa">
+            
+            <div class="display">
+            
+                <div class="campos">
+                    <!-- Caixas de texto -->
+                    <input class="CampTxt" readonly type="text" id="NumAux" value="0" />
+                    <br><br>
+                    <input class="CxOp" readonly type="text" id="op" value="" />
+                    <br><br>
+                    <input class="CampTxt" readonly type="text" id="NumEntrada" value="0" />
+                </div>
+
+                <div class="result">
+                    <input class="CampResult" readonly type="text" id="Resultado" value="" />
+                </div>
+                
+            </div>
+            
+            <br><br>
+            
+            <!-- Botões -->
+            <input class="botao" type="button" id="Btn7" value="7" />
+            <input class="botao" type="button" id="Btn8" value="8" />
+            <input class="botao" type="button" id="Btn9" value="9" />
+            <input class="botao" type="button" id="BtnSoma" value="+" />
+            <input class="botao" type="button" id="BtnCE" value="CE" />
+            <br>
+            <input class="botao" type="button" id="Btn4" value="4" />
+            <input class="botao" type="button" id="Btn5" value="5" />
+            <input class="botao" type="button" id="Btn6" value="6" />
+            <input class="botao" type="button" id="BtnMenos" value="-" />
+            <input class="botao" type="button" id="BtnRaiz" value="√x" />
+            <br>
+            <input class="botao" type="button" id="Btn1" value="1" />
+            <input class="botao" type="button" id="Btn2" value="2" />
+            <input class="botao" type="button" id="Btn3" value="3" />
+            <input class="botao" type="button" id="BtnVezes" value="X" />
+            <input class="botao" type="button" id="BtnQuadrado" value="x²" />
+            <br>
+            <input class="botao" type="button" id="Btn0" value="0" />
+            <input class="botao" type="button" id="BtnPonto" value="." />
+            <input class="botao" type="button" id="BtnDivisao" value="÷" />
+            <input class="botao" type="button" id="BtnResultado" value="=" />
+            <input class="botao" type="button" id="BtnPotencia" value="xʸ" />
+            
+        </form>
+            
+            <textarea
+                class="hist_operacoes"
+                id="historico"
+                rows="4"
+                cols="30"
+            ></textarea>
+            
+        </div>
+        
+        <!-- chamando arquivo js -->
+        <script src="js/ControlaCalculadora.js"></script>
+        
+    </body>
+</html>

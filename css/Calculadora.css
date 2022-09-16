@@ -1,0 +1,113 @@
+.titulo
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+}
+.pagina
+{
+    background-color: black;
+}
+.alinha
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.caixa
+{
+    background-color: black;
+    border: 5px solid silver;
+    padding: 25px;
+    border-radius: 15px;
+}
+.display
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -25px;
+}
+.campos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.result
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CampResult
+{
+    width: 75%;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 2px;
+    text-align: center;
+    color: silver;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: silver;
+}
+.CxOp
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 9px;
+    margin: 18px;
+    text-align: center;
+    text-align: center;
+    color: silver;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: silver;
+}
+.CampTxt
+{
+    height: 30px;
+    width: 100px;
+    border-radius: 9px;
+    text-align: center;
+    color: silver;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: silver;
+}
+.botao
+{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    border-radius: 9px;
+    text-align: center;
+    color: silver;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: silver;
+}
+.hist_operacoes
+{
+    margin-left: 20px;
+    background-color: black;
+    border: 5px solid silver;
+    padding: 25px;
+    border-radius: 15px;
+    height: 200px;
+    color: silver;
+}
